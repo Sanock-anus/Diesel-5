@@ -1,0 +1,21 @@
+{
+  "name": "diesel-server",
+  "version": "1.0.0",
+  "description": "Backend for Diesel Game Hosting",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "mongoose": "^6.0.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+     "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
